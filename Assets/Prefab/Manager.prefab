@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6114078751232455925
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6114078751232455923}
+  - component: {fileID: 6114078751232455922}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6114078751232455923
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6114078751232455925}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 269.97366, y: -24.683374, z: 274.27203}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6114078751232455922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6114078751232455925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e13801d00c37a9544a39dd116f68c8ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  save:
+    currentMap: WorldMap
+    worldMapPos: {x: 0, y: 0, z: 0}
+    mapPos: {x: 0, y: 0, z: 0}
+    mapRotation: {x: 0, y: 0, z: 0}
+    playerName: Billy
+    level: 1
+    exp: 0
+    expToNext: 20
+    currHealth: 30
+    maxHealth: 30
+    quests: []
+  allQuests:
+  - status: 1
+    questProgress: 0
+    questName: Kill Pete (TEST)
+    questDescription: Kill the fucking skeleton, bro !
+    expReward: 20
+    questObjectives:
+    - Kill Pete
+    - Report back
+    nextQuest: 1
+  - status: 0
+    questProgress: 0
+    questName: Kill Not Pete (TEST)
+    questDescription: Kill the fucking skeleton, man !
+    expReward: 20
+    questObjectives:
+    - Kill Not Pete
+    - Report back
+    nextQuest: -1
+  - status: 2
+    questProgress: 0
+    questName: "Nouveau D\xE9part"
+    questDescription: "Me voila arriv\xE9 sur l'ile. Je dois prendre contact avec
+      le capitaine de garde de Nova Kalia pour comprendre plus en d\xE9tail la situation."
+    expReward: 20
+    questObjectives:
+    - Aller voir le capitaine de garde
+    nextQuest: 3
+  - status: 0
+    questProgress: 0
+    questName: "Premier Probl\xE8me"
+    questDescription: "Je dois me d\xE9barrasser d'une troupe de squelettes qui se
+      terrent proche de Nova Kalia."
+    expReward: 30
+    questObjectives:
+    - "Tuer les squelettes pr\xE8s de Nova Kalia"
+    - Retourner vers le capitaine de garde
+    nextQuest: 4
+  - status: 0
+    questProgress: 0
+    questName: "Secours \xE0 Tolaka"
+    questDescription: Je dois me rendre dans la ville de Tolaka, au Nord de Nova
+      Kalia pour leur porter aide.
+    expReward: 40
+    questObjectives:
+    - Atteindre Tolaka et parler au maire.
+    - "Tuez les squelettes \xE0 Tolaka."
+    - Retourner voir le maire.
+    nextQuest: 5
+  - status: 0
+    questProgress: 0
+    questName: "Le m\xE9decin"
+    questDescription: "Je dois aider le m\xE9decin de Tolaka \xE0 soigner les bl\xE9ss\xE9s."
+    expReward: 50
+    questObjectives:
+    - "Aller voir le m\xE9decin"
+    - Tuer les squelettes dans le camp de Bolaka.
+    - "Retourner voir le m\xE9decin."
+    nextQuest: 6
+  - status: 0
+    questProgress: 0
+    questName: La fin
+    questDescription: "Je dois vaincre le dernier camp de squelettes de la r\xE9gion
+      et r\xE9tablir la paix."
+    expReward: 70
+    questObjectives:
+    - "Trouver l'informateur \xE0 Nova Ilka."
+    - Atteindre et tuer les squelettes dans le camp secret.
+    - Parler au chef de la garde de Nova Kalia.
+    nextQuest: -1

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: d55f09a5296a05a42b5834da7f7a4454
+  - enabled: 1
+    path: Assets/Scenes/WorldMap.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Encounters/Encounter1.unity
+    guid: 8cd6449b118226e489f7a2767ea149d2
+  - enabled: 1
+    path: Assets/Scenes/Maps/NovaKalia.unity
+    guid: 08c511fe84551154fb7c4f9ba2876f76
+  - enabled: 1
+    path: Assets/Scenes/Maps/NovaKaliaOutskirt.unity
+    guid: 29526b5cd76fb424fbf4459e38102a2a
+  - enabled: 1
+    path: Assets/Scenes/Maps/Tolaka.unity
+    guid: 1839f0fa69ba8824784cbcbc091c630b
+  - enabled: 1
+    path: Assets/Scenes/Maps/Bolaka.unity
+    guid: ff603e20fdfd7a7428f81e8da2f05dbe
+  - enabled: 1
+    path: Assets/Scenes/Maps/NovaIlka.unity
+    guid: dad9e7ea6b66d334f92d090618ef5b37
+  - enabled: 1
+    path: Assets/Scenes/Maps/CampFinal.unity
+    guid: eea8dc0596fb36e49aeed055496a9aa8
+  m_configObjects: {}
